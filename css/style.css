@@ -165,7 +165,7 @@ p{
 }
 /*------ Contact Heading Sektion------*/
 
-#contact-heading{
+projekt-heading#contact-heading{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/Banner_Light.png);
     background-repeat: no-repeat;
@@ -218,6 +218,63 @@ p{
     font-size: 50px;
     color: white;
 }
+
+/*------ Projekt Heading Sektion------*/
+
+#projekt-heading{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/Banner_Light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#projekt-heading .heading-content{
+    color: white;
+    padding: 130px 0px;
+}
+#projekt-heading .heading-content h2{
+    font-size: 40px;
+}
+#projekt-heading .heading-content p{
+    font-size: 20px;
+}
+/*------ Contact Options Sektion------
+#contact-options{
+    margin-top: -150px;
+    padding-bottom: 100px;
+}
+
+#contact-options:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#contact-options .contact-option{
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    text-align: center;
+    padding: 35px;
+    background-color: #3a3a3a;
+    min-height: 300px;
+    border-radius: 10px;
+}
+#contact-options .contact-option h3{
+    font-size: 25px;
+    color: coral;
+    padding-top: 15px;
+}
+#contact-options .contact-option p{
+    color: white;
+    line-height: 1.7em;
+}
+#contact-options .material-symbols-outlined{
+    font-size: 50px;
+    color: white;
+}*/
+
 
 /*------ Footer------*/
 #main-footer{
